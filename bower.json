@@ -1,0 +1,7 @@
+{
+  "name": "Animation",
+  "private": true,
+  "dependencies": {
+    "polymer-animation": "Polymer/polymer-animation#master"
+  }
+}
