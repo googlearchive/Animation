@@ -2,10 +2,8 @@
 <polymer-element name="animation-group" extends="polymer-animation-group" on-click="{{clickHandler}}">
   <template>
     <style>
-      @host {
-        * {
-          display: block;
-        }
+      :host {
+        display: block;
       }
       /*@polyfill #container > * */
       content::-webkit-distributed(*) {

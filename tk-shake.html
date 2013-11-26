@@ -3,14 +3,12 @@
 <polymer-element name="tk-shake" extends="polymer-shake" on-click="{{clickHandler}}">
   <template>
     <style>
-      @host {
-        * {
-          background-color: #e0e0e0;
-          border: 1px solid silver;
-          border-radius: 3px;
-          padding: 5px 10px;
-          margin: 5px;
-        }
+      :host {
+        background-color: #e0e0e0;
+        border: 1px solid silver;
+        border-radius: 3px;
+        padding: 5px 10px;
+        margin: 5px;
       }
     </style>
     <polymer-animation duration="{{period}}">
